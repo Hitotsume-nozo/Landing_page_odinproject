@@ -18,7 +18,7 @@ a{
 }
 .Sub-Header{
     border: 0px;
-    color: white;
+    color: #00ff80;
     background-color: #1f2937;
     display: flex;
     justify-content: center;
@@ -48,7 +48,7 @@ a{
 .Img-slot{
     display: flex;
     block-size: 250px;
-    background-color: #4e5e56;
+    background-color: #000;
     border: 0px;
     flex-basis: 500px;
     margin-right: 50px;
@@ -154,4 +154,11 @@ a{
     block-size: 100px;
     justify-content: center;
     align-items: center;
+}
+/*changes made via devtools*/
+body{
+    text-shadow: 20px 5px 16px #000000;
+}
+.Img-slot {
+    box-shadow: 3px 5px 12px 11px black;
 }
